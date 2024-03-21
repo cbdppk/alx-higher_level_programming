@@ -5,7 +5,8 @@ number = random.randint(-10000, 10000)
 
 if (number < 0):
     num_str = str(number)
-    last_digit = int(num_str[-1])
+    num1 = "-" + num_str[-1] 
+    last_digit = int(num1)
 else:
     last_digit = number % 10
 
