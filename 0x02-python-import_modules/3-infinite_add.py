@@ -8,9 +8,10 @@ def main():
     if (num_args == 1):
         print("{}".format(0))
     elif (num_args > 1):
+        added = 0
         for i in range(1, num_args):
-            added = 0
-            added += int(args[i])
+            num = int(args[i])
+            added += num
         print("{}".format(added))
 
 
